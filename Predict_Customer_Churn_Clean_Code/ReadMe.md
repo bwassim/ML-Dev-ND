@@ -15,7 +15,9 @@ To make sure the project run smoothly make sure to install the run the following
 
 
 ## Running Files
-There are mainly two important python files in this project. If one is interested 
+The original python notebook `churn_notebook.ipynb` contains the code to be refactored.
+
+Beside the notebook, there are mainly two important python files in this project. If one is interested 
 in running the whole pipeline from testing and logging while simultaneously running 
 the project, then run the following command
 
@@ -29,6 +31,8 @@ if there is one.
 - test_perform_feature_engineering
 - test_train_models
 
+Thie python script will test each of the functions and provide any errors to a file stored in the `logs` folder.
+
 Otherwise  the command below will only run the whole project (without testing) once.
 The used data is stored in the Data folder. The remaining folders are explicit by 
 their naming. 
@@ -39,5 +43,18 @@ Running either one of the two python churn python files will generate trained mo
 saved in the model folder. Various figures for exploratory data analysis are generated
 in `"./images/eda"`. Different metrics are also saved in `"./images/results/"` for both the Random Forrest classifier
 together with the logistic regression classifier
+
+You can also check the pylint score, as well as perform the auto-formatting using the following commands:
+
+```
+pylint churn_library.py
+pylint churn_script_logging_and_tests.py
+```
+
+The files here were formated using:
+```
+autopep8 --in-place --aggressive --aggressive churn_script_logging_and_tests.py
+autopep8 --in-place --aggressive --aggressive churn_library.py
+```
 
 
