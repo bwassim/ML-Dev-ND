@@ -13,7 +13,11 @@ To make sure the project run smoothly make sure to install the run the following
 
 - `$pip install -r requirements.txt`
 
+or just install the following: 
 
+```
+$pip install scikit-learn==0.22 shap pylint autopep8 && clear
+```
 ## Running Files
 The original python notebook `churn_notebook.ipynb` contains the code to be refactored.
 
