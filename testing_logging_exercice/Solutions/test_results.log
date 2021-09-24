@@ -1,0 +1,7 @@
+2021-09-24 10:01:03,930 - ERROR - Testing divide_vals: The type needs to be float and denominator cannot be 0.
+2021-09-24 10:01:03,930 - INFO - Testing divide_vals: SUCCESS
+2021-09-24 10:01:03,930 - INFO - Testing divide_vals: SUCCESS
+2021-09-24 10:01:03,930 - ERROR - Testing divide_vals: The type needs to be float and denominator cannot be 0.
+2021-09-24 10:01:03,930 - ERROR - Testing num_words: The type needs to be a string
+2021-09-24 10:01:03,930 - INFO - Testing num_words: SUCCESS
+2021-09-24 10:01:03,930 - INFO - Testing num_words: SUCCESS
