@@ -1,0 +1,6 @@
+2021-09-30 11:36:02,256 Download artifact
+2021-09-30 11:36:03,132 Reading dataframe
+2021-09-30 11:36:03,202 Starting preprocessing: Drop duplicates
+2021-09-30 11:36:03,222 Create a new feature
+2021-09-30 11:36:03,453 Save the preprocessed data into an artifact
+2021-09-30 11:36:03,467 Logging artifact

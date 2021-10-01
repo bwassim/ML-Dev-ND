@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/30cdbf7161c5457dbce3f1afaf55fc5f/artifacts
+end_time: 1632993025143
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 30cdbf7161c5457dbce3f1afaf55fc5f
+run_uuid: 30cdbf7161c5457dbce3f1afaf55fc5f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1632993014390
+status: 4
+tags: []
+user_id: obara

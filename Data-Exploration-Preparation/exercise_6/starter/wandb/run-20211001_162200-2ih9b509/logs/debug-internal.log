@@ -1,0 +1,149 @@
+2021-10-01 16:22:00,479 INFO    MainThread:56357 [internal.py:wandb_internal():86] W&B internal server running at pid: 56357, started at: 2021-10-01 16:22:00.479072
+2021-10-01 16:22:00,479 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: check_version
+2021-10-01 16:22:00,479 INFO    WriterThread:56357 [datastore.py:open_for_write():77] open: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/run-2ih9b509.wandb
+2021-10-01 16:22:00,480 DEBUG   SenderThread:56357 [sender.py:send():182] send: header
+2021-10-01 16:22:00,480 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: check_version
+2021-10-01 16:22:00,585 DEBUG   SenderThread:56357 [sender.py:send():182] send: run
+2021-10-01 16:22:00,842 INFO    SenderThread:56357 [dir_watcher.py:__init__():169] watching files in: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files
+2021-10-01 16:22:00,842 INFO    SenderThread:56357 [sender.py:_start_run_threads():740] run started: 2ih9b509 with start time 1633098120
+2021-10-01 16:22:00,842 DEBUG   SenderThread:56357 [sender.py:send():182] send: summary
+2021-10-01 16:22:00,842 INFO    SenderThread:56357 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-01 16:22:00,842 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: run_start
+2021-10-01 16:22:00,843 DEBUG   HandlerThread:56357 [meta.py:__init__():40] meta init
+2021-10-01 16:22:00,843 DEBUG   HandlerThread:56357 [meta.py:__init__():54] meta init done
+2021-10-01 16:22:00,843 DEBUG   HandlerThread:56357 [meta.py:probe():211] probe
+2021-10-01 16:22:00,845 DEBUG   HandlerThread:56357 [meta.py:_setup_git():201] setup git
+2021-10-01 16:22:00,869 DEBUG   HandlerThread:56357 [meta.py:_setup_git():208] setup git done
+2021-10-01 16:22:00,869 DEBUG   HandlerThread:56357 [meta.py:_save_pip():58] save pip
+2021-10-01 16:22:00,869 DEBUG   HandlerThread:56357 [meta.py:_save_pip():72] save pip done
+2021-10-01 16:22:00,869 DEBUG   HandlerThread:56357 [meta.py:_save_conda():79] save conda
+2021-10-01 16:22:01,328 DEBUG   HandlerThread:56357 [meta.py:_save_conda():87] save conda done
+2021-10-01 16:22:01,328 DEBUG   HandlerThread:56357 [meta.py:probe():249] probe done
+2021-10-01 16:22:01,330 DEBUG   SenderThread:56357 [sender.py:send():182] send: files
+2021-10-01 16:22:01,330 INFO    SenderThread:56357 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-10-01 16:22:01,333 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-01 16:22:01,333 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: stop_status
+2021-10-01 16:22:01,758 DEBUG   SenderThread:56357 [sender.py:send():182] send: telemetry
+2021-10-01 16:22:01,849 INFO    Thread-8  :56357 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/conda-environment.yaml
+2021-10-01 16:22:01,849 INFO    Thread-8  :56357 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/wandb-summary.json
+2021-10-01 16:22:01,849 INFO    Thread-8  :56357 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/output.log
+2021-10-01 16:22:01,849 INFO    Thread-8  :56357 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/requirements.txt
+2021-10-01 16:22:01,849 INFO    Thread-8  :56357 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/wandb-metadata.json
+2021-10-01 16:22:02,042 INFO    Thread-11 :56357 [upload_job.py:push():137] Uploaded file /var/folders/r4/ykkkjzm57b9btjgkspv24z5c0000gn/T/tmpcfbgevdrwandb/3iixvlzg-wandb-metadata.json
+2021-10-01 16:22:03,859 INFO    Thread-8  :56357 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/output.log
+2021-10-01 16:22:03,869 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 16:22:03,869 DEBUG   SenderThread:56357 [sender.py:send():182] send: telemetry
+2021-10-01 16:22:03,870 DEBUG   SenderThread:56357 [sender.py:send():182] send: exit
+2021-10-01 16:22:03,870 INFO    SenderThread:56357 [sender.py:send_exit():291] handling exit code: 1
+2021-10-01 16:22:03,870 INFO    SenderThread:56357 [sender.py:send_exit():293] handling runtime: 3
+2021-10-01 16:22:03,870 INFO    SenderThread:56357 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-01 16:22:03,871 INFO    SenderThread:56357 [sender.py:send_exit():303] send defer
+2021-10-01 16:22:03,871 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 16:22:03,871 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 16:22:03,871 INFO    HandlerThread:56357 [handler.py:handle_request_defer():143] handle defer: 0
+2021-10-01 16:22:03,872 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: defer
+2021-10-01 16:22:03,872 INFO    SenderThread:56357 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-10-01 16:22:03,872 INFO    SenderThread:56357 [sender.py:transition_state():316] send defer: 1
+2021-10-01 16:22:03,872 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 16:22:03,872 INFO    HandlerThread:56357 [handler.py:handle_request_defer():143] handle defer: 1
+2021-10-01 16:22:04,864 INFO    Thread-8  :56357 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/output.log
+2021-10-01 16:22:04,866 INFO    Thread-8  :56357 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/wandb-summary.json
+2021-10-01 16:22:06,117 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: defer
+2021-10-01 16:22:06,117 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 16:22:06,117 INFO    SenderThread:56357 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-10-01 16:22:06,118 INFO    SenderThread:56357 [sender.py:transition_state():316] send defer: 2
+2021-10-01 16:22:06,118 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 16:22:06,118 DEBUG   SenderThread:56357 [sender.py:send():182] send: stats
+2021-10-01 16:22:06,118 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 16:22:06,118 INFO    HandlerThread:56357 [handler.py:handle_request_defer():143] handle defer: 2
+2021-10-01 16:22:06,118 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: defer
+2021-10-01 16:22:06,118 INFO    SenderThread:56357 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-10-01 16:22:06,118 INFO    SenderThread:56357 [sender.py:transition_state():316] send defer: 3
+2021-10-01 16:22:06,118 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 16:22:06,118 INFO    HandlerThread:56357 [handler.py:handle_request_defer():143] handle defer: 3
+2021-10-01 16:22:06,118 DEBUG   SenderThread:56357 [sender.py:send():182] send: summary
+2021-10-01 16:22:06,119 INFO    SenderThread:56357 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-01 16:22:06,119 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: defer
+2021-10-01 16:22:06,119 INFO    SenderThread:56357 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-10-01 16:22:06,119 INFO    SenderThread:56357 [sender.py:transition_state():316] send defer: 4
+2021-10-01 16:22:06,119 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 16:22:06,119 INFO    HandlerThread:56357 [handler.py:handle_request_defer():143] handle defer: 4
+2021-10-01 16:22:06,119 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: defer
+2021-10-01 16:22:06,119 INFO    SenderThread:56357 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-10-01 16:22:06,219 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 16:22:06,326 INFO    SenderThread:56357 [sender.py:transition_state():316] send defer: 5
+2021-10-01 16:22:06,327 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 16:22:06,327 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 16:22:06,327 INFO    HandlerThread:56357 [handler.py:handle_request_defer():143] handle defer: 5
+2021-10-01 16:22:06,327 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: defer
+2021-10-01 16:22:06,327 INFO    SenderThread:56357 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-10-01 16:22:06,327 INFO    SenderThread:56357 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-01 16:22:06,433 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 16:22:06,874 INFO    SenderThread:56357 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/wandb-summary.json
+2021-10-01 16:22:06,874 INFO    SenderThread:56357 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/config.yaml
+2021-10-01 16:22:06,874 INFO    SenderThread:56357 [dir_watcher.py:finish():313] scan: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files
+2021-10-01 16:22:06,874 INFO    SenderThread:56357 [dir_watcher.py:finish():327] scan save: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/requirements.txt requirements.txt
+2021-10-01 16:22:06,874 INFO    SenderThread:56357 [dir_watcher.py:finish():327] scan save: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/output.log output.log
+2021-10-01 16:22:06,878 INFO    SenderThread:56357 [dir_watcher.py:finish():327] scan save: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/config.yaml config.yaml
+2021-10-01 16:22:06,878 INFO    SenderThread:56357 [dir_watcher.py:finish():327] scan save: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/wandb-summary.json wandb-summary.json
+2021-10-01 16:22:06,881 INFO    SenderThread:56357 [dir_watcher.py:finish():327] scan save: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/conda-environment.yaml conda-environment.yaml
+2021-10-01 16:22:06,886 INFO    SenderThread:56357 [dir_watcher.py:finish():327] scan save: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/wandb-metadata.json wandb-metadata.json
+2021-10-01 16:22:06,886 INFO    SenderThread:56357 [sender.py:transition_state():316] send defer: 6
+2021-10-01 16:22:06,887 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 16:22:06,888 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 16:22:06,891 INFO    HandlerThread:56357 [handler.py:handle_request_defer():143] handle defer: 6
+2021-10-01 16:22:06,892 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: defer
+2021-10-01 16:22:06,892 INFO    SenderThread:56357 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-10-01 16:22:06,893 INFO    SenderThread:56357 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-01 16:22:06,997 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 16:22:06,997 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 16:22:07,107 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 16:22:07,111 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 16:22:07,218 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 16:22:07,218 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 16:22:07,325 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 16:22:07,326 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 16:22:07,434 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 16:22:07,435 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 16:22:07,540 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 16:22:07,541 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 16:22:07,574 INFO    Thread-12 :56357 [upload_job.py:push():137] Uploaded file /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/requirements.txt
+2021-10-01 16:22:07,576 INFO    Thread-13 :56357 [upload_job.py:push():137] Uploaded file /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/output.log
+2021-10-01 16:22:07,578 INFO    Thread-14 :56357 [upload_job.py:push():137] Uploaded file /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/config.yaml
+2021-10-01 16:22:07,580 INFO    Thread-16 :56357 [upload_job.py:push():137] Uploaded file /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/conda-environment.yaml
+2021-10-01 16:22:07,580 INFO    Thread-15 :56357 [upload_job.py:push():137] Uploaded file /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/files/wandb-summary.json
+2021-10-01 16:22:07,649 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 16:22:07,649 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 16:22:07,755 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 16:22:07,755 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 16:22:07,781 INFO    Thread-7  :56357 [sender.py:transition_state():316] send defer: 7
+2021-10-01 16:22:07,782 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 16:22:07,782 INFO    HandlerThread:56357 [handler.py:handle_request_defer():143] handle defer: 7
+2021-10-01 16:22:07,782 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: defer
+2021-10-01 16:22:07,782 INFO    SenderThread:56357 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-10-01 16:22:07,861 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 16:22:08,129 INFO    SenderThread:56357 [sender.py:transition_state():316] send defer: 8
+2021-10-01 16:22:08,130 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 16:22:08,131 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 16:22:08,131 INFO    HandlerThread:56357 [handler.py:handle_request_defer():143] handle defer: 8
+2021-10-01 16:22:08,131 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: defer
+2021-10-01 16:22:08,131 INFO    SenderThread:56357 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-10-01 16:22:08,131 INFO    SenderThread:56357 [sender.py:transition_state():316] send defer: 9
+2021-10-01 16:22:08,131 DEBUG   SenderThread:56357 [sender.py:send():182] send: final
+2021-10-01 16:22:08,132 DEBUG   SenderThread:56357 [sender.py:send():182] send: footer
+2021-10-01 16:22:08,132 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: defer
+2021-10-01 16:22:08,132 INFO    HandlerThread:56357 [handler.py:handle_request_defer():143] handle defer: 9
+2021-10-01 16:22:08,132 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: defer
+2021-10-01 16:22:08,132 INFO    SenderThread:56357 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-10-01 16:22:08,238 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-01 16:22:08,239 DEBUG   SenderThread:56357 [sender.py:send_request():196] send_request: poll_exit
+2021-10-01 16:22:08,239 INFO    SenderThread:56357 [file_pusher.py:join():182] waiting for file pusher
+2021-10-01 16:22:08,241 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: get_summary
+2021-10-01 16:22:08,241 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: sampled_history
+2021-10-01 16:22:08,242 DEBUG   HandlerThread:56357 [handler.py:handle_request():126] handle_request: shutdown
+2021-10-01 16:22:08,242 INFO    HandlerThread:56357 [handler.py:finish():683] shutting down handler
+2021-10-01 16:22:09,137 INFO    WriterThread:56357 [datastore.py:close():281] close: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/wandb/run-20211001_162200-2ih9b509/run-2ih9b509.wandb
+2021-10-01 16:22:09,244 INFO    SenderThread:56357 [sender.py:finish():979] shutting down sender
+2021-10-01 16:22:09,245 INFO    SenderThread:56357 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-01 16:22:09,245 INFO    SenderThread:56357 [file_pusher.py:join():182] waiting for file pusher
+2021-10-01 16:22:09,251 INFO    MainThread:56357 [internal.py:handle_exit():76] Internal process exited
