@@ -1,0 +1,147 @@
+2021-10-21 00:00:50,037 INFO    MainThread:47169 [internal.py:wandb_internal():86] W&B internal server running at pid: 47169, started at: 2021-10-21 00:00:50.037343
+2021-10-21 00:00:50,038 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: check_version
+2021-10-21 00:00:50,038 INFO    WriterThread:47169 [datastore.py:open_for_write():77] open: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/run-st4939zy.wandb
+2021-10-21 00:00:50,039 DEBUG   SenderThread:47169 [sender.py:send():182] send: header
+2021-10-21 00:00:50,039 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: check_version
+2021-10-21 00:00:50,142 DEBUG   SenderThread:47169 [sender.py:send():182] send: run
+2021-10-21 00:00:50,404 INFO    SenderThread:47169 [dir_watcher.py:__init__():169] watching files in: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files
+2021-10-21 00:00:50,404 INFO    SenderThread:47169 [sender.py:_start_run_threads():740] run started: st4939zy with start time 1634767249
+2021-10-21 00:00:50,404 DEBUG   SenderThread:47169 [sender.py:send():182] send: summary
+2021-10-21 00:00:50,404 INFO    SenderThread:47169 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-21 00:00:50,404 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: run_start
+2021-10-21 00:00:50,405 DEBUG   HandlerThread:47169 [meta.py:__init__():40] meta init
+2021-10-21 00:00:50,406 DEBUG   HandlerThread:47169 [meta.py:__init__():54] meta init done
+2021-10-21 00:00:50,407 DEBUG   HandlerThread:47169 [meta.py:probe():211] probe
+2021-10-21 00:00:50,410 DEBUG   HandlerThread:47169 [meta.py:_setup_git():201] setup git
+2021-10-21 00:00:50,429 DEBUG   HandlerThread:47169 [meta.py:_setup_git():208] setup git done
+2021-10-21 00:00:50,429 DEBUG   HandlerThread:47169 [meta.py:_save_pip():58] save pip
+2021-10-21 00:00:50,430 DEBUG   HandlerThread:47169 [meta.py:_save_pip():72] save pip done
+2021-10-21 00:00:50,430 DEBUG   HandlerThread:47169 [meta.py:_save_conda():79] save conda
+2021-10-21 00:00:50,919 DEBUG   HandlerThread:47169 [meta.py:_save_conda():87] save conda done
+2021-10-21 00:00:50,919 DEBUG   HandlerThread:47169 [meta.py:probe():249] probe done
+2021-10-21 00:00:50,922 DEBUG   SenderThread:47169 [sender.py:send():182] send: files
+2021-10-21 00:00:50,922 INFO    SenderThread:47169 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-10-21 00:00:50,924 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-21 00:00:50,924 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: stop_status
+2021-10-21 00:00:51,340 DEBUG   SenderThread:47169 [sender.py:send():182] send: telemetry
+2021-10-21 00:00:51,410 INFO    Thread-8  :47169 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/wandb-summary.json
+2021-10-21 00:00:51,410 INFO    Thread-8  :47169 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/requirements.txt
+2021-10-21 00:00:51,411 INFO    Thread-8  :47169 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/output.log
+2021-10-21 00:00:51,411 INFO    Thread-8  :47169 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/conda-environment.yaml
+2021-10-21 00:00:51,411 INFO    Thread-8  :47169 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/wandb-metadata.json
+2021-10-21 00:00:51,515 INFO    Thread-11 :47169 [upload_job.py:push():137] Uploaded file /var/folders/r4/ykkkjzm57b9btjgkspv24z5c0000gn/T/tmpx_b4zdy6wandb/3bt1d366-wandb-metadata.json
+2021-10-21 00:00:53,420 INFO    Thread-8  :47169 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/output.log
+2021-10-21 00:00:53,458 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-21 00:00:53,458 DEBUG   SenderThread:47169 [sender.py:send():182] send: telemetry
+2021-10-21 00:00:53,458 DEBUG   SenderThread:47169 [sender.py:send():182] send: exit
+2021-10-21 00:00:53,458 INFO    SenderThread:47169 [sender.py:send_exit():291] handling exit code: 1
+2021-10-21 00:00:53,459 INFO    SenderThread:47169 [sender.py:send_exit():293] handling runtime: 3
+2021-10-21 00:00:53,459 INFO    SenderThread:47169 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-21 00:00:53,459 INFO    SenderThread:47169 [sender.py:send_exit():303] send defer
+2021-10-21 00:00:53,459 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: poll_exit
+2021-10-21 00:00:53,460 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: defer
+2021-10-21 00:00:53,460 INFO    HandlerThread:47169 [handler.py:handle_request_defer():143] handle defer: 0
+2021-10-21 00:00:53,460 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: defer
+2021-10-21 00:00:53,460 INFO    SenderThread:47169 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-10-21 00:00:53,460 INFO    SenderThread:47169 [sender.py:transition_state():316] send defer: 1
+2021-10-21 00:00:53,460 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: defer
+2021-10-21 00:00:53,460 INFO    HandlerThread:47169 [handler.py:handle_request_defer():143] handle defer: 1
+2021-10-21 00:00:54,425 INFO    Thread-8  :47169 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/wandb-summary.json
+2021-10-21 00:00:54,425 INFO    Thread-8  :47169 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/output.log
+2021-10-21 00:00:55,237 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-21 00:00:55,238 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: defer
+2021-10-21 00:00:55,238 INFO    SenderThread:47169 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-10-21 00:00:55,238 INFO    SenderThread:47169 [sender.py:transition_state():316] send defer: 2
+2021-10-21 00:00:55,238 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: poll_exit
+2021-10-21 00:00:55,238 DEBUG   SenderThread:47169 [sender.py:send():182] send: stats
+2021-10-21 00:00:55,238 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: defer
+2021-10-21 00:00:55,238 INFO    HandlerThread:47169 [handler.py:handle_request_defer():143] handle defer: 2
+2021-10-21 00:00:55,239 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: defer
+2021-10-21 00:00:55,239 INFO    SenderThread:47169 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-10-21 00:00:55,239 INFO    SenderThread:47169 [sender.py:transition_state():316] send defer: 3
+2021-10-21 00:00:55,239 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: defer
+2021-10-21 00:00:55,239 INFO    HandlerThread:47169 [handler.py:handle_request_defer():143] handle defer: 3
+2021-10-21 00:00:55,239 DEBUG   SenderThread:47169 [sender.py:send():182] send: summary
+2021-10-21 00:00:55,239 INFO    SenderThread:47169 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-21 00:00:55,239 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: defer
+2021-10-21 00:00:55,239 INFO    SenderThread:47169 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-10-21 00:00:55,239 INFO    SenderThread:47169 [sender.py:transition_state():316] send defer: 4
+2021-10-21 00:00:55,240 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: defer
+2021-10-21 00:00:55,240 INFO    HandlerThread:47169 [handler.py:handle_request_defer():143] handle defer: 4
+2021-10-21 00:00:55,240 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: defer
+2021-10-21 00:00:55,240 INFO    SenderThread:47169 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-10-21 00:00:55,344 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-21 00:00:55,430 INFO    Thread-8  :47169 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/wandb-summary.json
+2021-10-21 00:00:55,449 INFO    SenderThread:47169 [sender.py:transition_state():316] send defer: 5
+2021-10-21 00:00:55,449 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: poll_exit
+2021-10-21 00:00:55,453 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: defer
+2021-10-21 00:00:55,453 INFO    HandlerThread:47169 [handler.py:handle_request_defer():143] handle defer: 5
+2021-10-21 00:00:55,458 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: defer
+2021-10-21 00:00:55,458 INFO    SenderThread:47169 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-10-21 00:00:55,458 INFO    SenderThread:47169 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-21 00:00:55,563 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-21 00:00:56,436 INFO    Thread-8  :47169 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/config.yaml
+2021-10-21 00:00:56,436 INFO    SenderThread:47169 [dir_watcher.py:finish():313] scan: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files
+2021-10-21 00:00:56,436 INFO    SenderThread:47169 [dir_watcher.py:finish():327] scan save: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/requirements.txt requirements.txt
+2021-10-21 00:00:56,437 INFO    SenderThread:47169 [dir_watcher.py:finish():327] scan save: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/output.log output.log
+2021-10-21 00:00:56,439 INFO    SenderThread:47169 [dir_watcher.py:finish():327] scan save: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/config.yaml config.yaml
+2021-10-21 00:00:56,441 INFO    SenderThread:47169 [dir_watcher.py:finish():327] scan save: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/wandb-summary.json wandb-summary.json
+2021-10-21 00:00:56,443 INFO    SenderThread:47169 [dir_watcher.py:finish():327] scan save: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/conda-environment.yaml conda-environment.yaml
+2021-10-21 00:00:56,445 INFO    SenderThread:47169 [dir_watcher.py:finish():327] scan save: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/wandb-metadata.json wandb-metadata.json
+2021-10-21 00:00:56,446 INFO    SenderThread:47169 [sender.py:transition_state():316] send defer: 6
+2021-10-21 00:00:56,446 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: poll_exit
+2021-10-21 00:00:56,446 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: defer
+2021-10-21 00:00:56,449 INFO    HandlerThread:47169 [handler.py:handle_request_defer():143] handle defer: 6
+2021-10-21 00:00:56,449 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: defer
+2021-10-21 00:00:56,449 INFO    SenderThread:47169 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-10-21 00:00:56,449 INFO    SenderThread:47169 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-21 00:00:56,555 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-21 00:00:56,555 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: poll_exit
+2021-10-21 00:00:56,660 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-21 00:00:56,662 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: poll_exit
+2021-10-21 00:00:56,768 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-21 00:00:56,769 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: poll_exit
+2021-10-21 00:00:56,874 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-21 00:00:56,874 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: poll_exit
+2021-10-21 00:00:56,980 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-21 00:00:56,980 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: poll_exit
+2021-10-21 00:00:57,021 INFO    Thread-13 :47169 [upload_job.py:push():137] Uploaded file /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/output.log
+2021-10-21 00:00:57,022 INFO    Thread-16 :47169 [upload_job.py:push():137] Uploaded file /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/conda-environment.yaml
+2021-10-21 00:00:57,024 INFO    Thread-12 :47169 [upload_job.py:push():137] Uploaded file /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/requirements.txt
+2021-10-21 00:00:57,029 INFO    Thread-15 :47169 [upload_job.py:push():137] Uploaded file /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/wandb-summary.json
+2021-10-21 00:00:57,065 INFO    Thread-14 :47169 [upload_job.py:push():137] Uploaded file /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/files/config.yaml
+2021-10-21 00:00:57,086 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-21 00:00:57,086 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: poll_exit
+2021-10-21 00:00:57,192 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-21 00:00:57,192 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: poll_exit
+2021-10-21 00:00:57,270 INFO    Thread-7  :47169 [sender.py:transition_state():316] send defer: 7
+2021-10-21 00:00:57,271 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: defer
+2021-10-21 00:00:57,271 INFO    HandlerThread:47169 [handler.py:handle_request_defer():143] handle defer: 7
+2021-10-21 00:00:57,271 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: defer
+2021-10-21 00:00:57,271 INFO    SenderThread:47169 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-10-21 00:00:57,298 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-21 00:00:57,862 INFO    SenderThread:47169 [sender.py:transition_state():316] send defer: 8
+2021-10-21 00:00:57,862 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: poll_exit
+2021-10-21 00:00:57,862 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: defer
+2021-10-21 00:00:57,862 INFO    HandlerThread:47169 [handler.py:handle_request_defer():143] handle defer: 8
+2021-10-21 00:00:57,863 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: defer
+2021-10-21 00:00:57,863 INFO    SenderThread:47169 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-10-21 00:00:57,863 INFO    SenderThread:47169 [sender.py:transition_state():316] send defer: 9
+2021-10-21 00:00:57,863 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: defer
+2021-10-21 00:00:57,863 INFO    HandlerThread:47169 [handler.py:handle_request_defer():143] handle defer: 9
+2021-10-21 00:00:57,863 DEBUG   SenderThread:47169 [sender.py:send():182] send: final
+2021-10-21 00:00:57,863 DEBUG   SenderThread:47169 [sender.py:send():182] send: footer
+2021-10-21 00:00:57,863 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: defer
+2021-10-21 00:00:57,863 INFO    SenderThread:47169 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-10-21 00:00:57,968 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-21 00:00:57,968 DEBUG   SenderThread:47169 [sender.py:send_request():196] send_request: poll_exit
+2021-10-21 00:00:57,969 INFO    SenderThread:47169 [file_pusher.py:join():182] waiting for file pusher
+2021-10-21 00:00:57,970 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: get_summary
+2021-10-21 00:00:57,970 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: sampled_history
+2021-10-21 00:00:57,974 DEBUG   HandlerThread:47169 [handler.py:handle_request():126] handle_request: shutdown
+2021-10-21 00:00:57,974 INFO    HandlerThread:47169 [handler.py:finish():683] shutting down handler
+2021-10-21 00:00:58,868 INFO    WriterThread:47169 [datastore.py:close():281] close: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/preprocess/wandb/run-20211021_000049-st4939zy/run-st4939zy.wandb
+2021-10-21 00:00:58,979 INFO    SenderThread:47169 [sender.py:finish():979] shutting down sender
+2021-10-21 00:00:58,979 INFO    SenderThread:47169 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-21 00:00:58,979 INFO    SenderThread:47169 [file_pusher.py:join():182] waiting for file pusher
+2021-10-21 00:00:58,982 INFO    MainThread:47169 [internal.py:handle_exit():76] Internal process exited

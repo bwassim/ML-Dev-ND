@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/mlruns/0/fcefeefd3cbb4f81afad6212955a7a83/artifacts
+end_time: 1634767832772
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: fcefeefd3cbb4f81afad6212955a7a83
+run_uuid: fcefeefd3cbb4f81afad6212955a7a83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1634767701425
+status: 3
+tags: []
+user_id: obara

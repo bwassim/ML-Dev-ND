@@ -1,0 +1,18 @@
+[1m======================================================================================================= test session starts ========================================================================================================
+platform darwin -- Python 3.9.7, pytest-6.2.2, py-1.10.0, pluggy-0.13.1 -- /Users/obara/miniforge3/envs/mlflow-827614215fe534cb79b9b720eb621b7f7070f8a8/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/check_data
+[1mcollected 4 items                                                                                                                                                                                                                  
+test_data.py::test_column_presence_and_type [32mPASSED
+test_data.py::test_class_names [32mPASSED
+test_data.py::test_column_ranges [32mPASSED
+test_data.py::test_kolmogorov_smirnov [32mPASSED
+[33m========================================================================================================= warnings summary =========================================================================================================
+../../../../../../miniforge3/envs/mlflow-827614215fe534cb79b9b720eb621b7f7070f8a8/lib/python3.9/site-packages/promise/promise_list.py:2
+  /Users/obara/miniforge3/envs/mlflow-827614215fe534cb79b9b720eb621b7f7070f8a8/lib/python3.9/site-packages/promise/promise_list.py:2: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+    from collections import Iterable
+test_data.py::test_column_presence_and_type
+  /Users/obara/miniforge3/envs/mlflow-827614215fe534cb79b9b720eb621b7f7070f8a8/lib/python3.9/site-packages/pluggy/callers.py:187: DtypeWarning: Columns (16) have mixed types.Specify dtype option on import or set low_memory=False.
+    res = hook_impl.function(*args)
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+[33m================================================================================================== [32m4 passed[39m, [33m[1m2 warnings[22m in 2.80s ===================================================================================================

@@ -1,0 +1,33 @@
+2021-10-21 00:05:25,471 Downloading and reading train artifact
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Project obara/exercise_14 does not contain artifact: "train_data.csv:latest"
+Traceback (most recent call last):
+  File "/Users/obara/miniforge3/envs/mlflow-205038bc7178e647840f62f3c6b2061ad1d28994/lib/python3.9/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/obara/miniforge3/envs/mlflow-205038bc7178e647840f62f3c6b2061ad1d28994/lib/python3.9/site-packages/wandb/apis/public.py", line 565, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/obara/miniforge3/envs/mlflow-205038bc7178e647840f62f3c6b2061ad1d28994/lib/python3.9/site-packages/wandb/apis/public.py", line 2824, in __init__
+    self._load()
+  File "/Users/obara/miniforge3/envs/mlflow-205038bc7178e647840f62f3c6b2061ad1d28994/lib/python3.9/site-packages/wandb/apis/public.py", line 3310, in _load
+    raise ValueError(
+ValueError: Project obara/exercise_14 does not contain artifact: "train_data.csv:latest"
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/run.py", line 263, in <module>
+    go(args)
+  File "/Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/random_forest/run.py", line 33, in go
+    train_data_path = run.use_artifact(args.train_data).file()
+  File "/Users/obara/miniforge3/envs/mlflow-205038bc7178e647840f62f3c6b2061ad1d28994/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2088, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/Users/obara/miniforge3/envs/mlflow-205038bc7178e647840f62f3c6b2061ad1d28994/lib/python3.9/site-packages/wandb/apis/normalize.py", line 62, in wrapper
+    six.reraise(CommError, CommError(message, err), sys.exc_info()[2])
+  File "/Users/obara/miniforge3/envs/mlflow-205038bc7178e647840f62f3c6b2061ad1d28994/lib/python3.9/site-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/obara/miniforge3/envs/mlflow-205038bc7178e647840f62f3c6b2061ad1d28994/lib/python3.9/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/obara/miniforge3/envs/mlflow-205038bc7178e647840f62f3c6b2061ad1d28994/lib/python3.9/site-packages/wandb/apis/public.py", line 565, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/obara/miniforge3/envs/mlflow-205038bc7178e647840f62f3c6b2061ad1d28994/lib/python3.9/site-packages/wandb/apis/public.py", line 2824, in __init__
+    self._load()
+  File "/Users/obara/miniforge3/envs/mlflow-205038bc7178e647840f62f3c6b2061ad1d28994/lib/python3.9/site-packages/wandb/apis/public.py", line 3310, in _load
+    raise ValueError(
+wandb.errors.CommError: Project obara/exercise_14 does not contain artifact: "train_data.csv:latest"

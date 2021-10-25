@@ -1,0 +1,31 @@
+{
+    "os": "macOS-11.6-arm64-arm-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2021-10-20T22:03:42.463716",
+    "startedAt": "2021-10-20T22:03:41.833476",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "/Users/obara/miniforge3/envs/mlflow-827614215fe534cb79b9b720eb621b7f7070f8a8/bin/pytest",
+    "git": {
+        "remote": "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "d17fd61434715a00a5b29bdde55fd75b04941b54"
+    },
+    "email": "bwassim23@gmail.com",
+    "root": "/Users/obara/nd0821-c2-build-model-workflow-exercises",
+    "host": "obaras-Mac-mini",
+    "username": "obara",
+    "executable": "/Users/obara/miniforge3/envs/mlflow-827614215fe534cb79b9b720eb621b7f7070f8a8/bin/python"
+}

@@ -1,0 +1,31 @@
+{
+    "os": "macOS-11.6-arm64-arm-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2021-10-20T22:00:00.378161",
+    "startedAt": "2021-10-20T21:59:59.435159",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+        "--artifact_name",
+        "raw_data.parquet",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Data as downloaded"
+    ],
+    "state": "running",
+    "program": "/Users/obara/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/download/download_data.py",
+    "codePath": "lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/download/download_data.py",
+    "git": {
+        "remote": "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises.git",
+        "commit": "d17fd61434715a00a5b29bdde55fd75b04941b54"
+    },
+    "email": "bwassim23@gmail.com",
+    "root": "/Users/obara/nd0821-c2-build-model-workflow-exercises",
+    "host": "obaras-Mac-mini",
+    "username": "obara",
+    "executable": "/Users/obara/miniforge3/envs/mlflow-aa3f11c2cc55d1ab2faee19fb04744764440e83a/bin/python"
+}
